@@ -1,6 +1,7 @@
 import cv2
 from handtracking import HandDetector
 import pickle
+import numpy as np
 
 # save the model to disk
 filename = "finalized_model.sav"
